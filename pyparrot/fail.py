@@ -1,3 +1,5 @@
+# Author - Samuel Ambler
+
 # Fail command for bebop
 from pyparrot.Bebop import Bebop
 
