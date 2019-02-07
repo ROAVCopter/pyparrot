@@ -14,5 +14,5 @@ if(success):
 	print("DONE - disconnecting")
 	bebop.smart_sleep(5)
 	print(bebop.sensors.battery)
-	print("\032[1;37;41m BEBOP DOWN \033[1;37;40m");
+	print("\033[1;37;41m BEBOP DOWN \033[1;37;40m");
 	bebop.disconnect()
